@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(to right, rgb(95, 129, 203) , rgb(76, 76, 228));
+font-family: sans-serif;
+color: rgb(73, 68, 68);
+
+/* line-height: 60px; */
+
+}
+
+div{
+    line-height: 60px;
+    width: 400px;
+    height: 470px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+margin: auto;
+position: relative;
+top: 150px;
+    
+
+}
+
+h3{
+    position: relative;
+left: 120px;
+top: 35px;
+padding: 20px 0;
+}
+
+input{
+    width: 75%;
+border: none;
+border-bottom: 2px solid rgb(67, 67, 255);
+
+position: relative;
+left: 40px;
+padding: 10px;
+
+}
+
+input[type=submit]{
+    
+width: 320px;
+border: none;
+height: 40px;
+background: linear-gradient(to right, rgb(115, 151, 227) , rgb(84, 84, 240));
+color: rgb(255, 255, 255);
+
+}
+
+
+
+
+.a1{
+    text-decoration: none;
+    position: relative;
+left: 140px;
+top: -15px;
+margin: auto;
+}
+
+
+.a2{
+    text-decoration: none;
+    position: relative;
+left: 150px;
+top: -45px;
+
+}
+
+input:hover{
+    border-bottom: 3px solid rgb(67, 67, 255)
+   
+}
+
+input[type=submit]:hover{
+
+
+cursor: pointer;
+background: linear-gradient(to right, rgb(84, 84, 240), rgb(115, 151, 227) );
+
+}
+/* input:focus{
+    border: none;
+} */
+
